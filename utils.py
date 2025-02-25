@@ -6,26 +6,6 @@ from io import BytesIO
 
 DB_PATH = os.path.join("data", "face_db.pkl")
 
-# def prepare_audio(audio_file_path):
-#     """
-#     Check if the provided audio file is in mp3 or m4a format.
-#     If yes, convert it to WAV (using PCM 16-bit little-endian,
-#     with a sample rate of 16000 Hz and mono channel) and return the new file path.
-#     If the file is already WAV, return the original file path.
-#     """
-#     ext = os.path.splitext(audio_file_path)[1].lower()
-#     if ext in [".mp3", ".m4a"]:
-#         wav_path = os.path.splitext(audio_file_path)[0] + ".wav"
-#         try:
-#             audio = AudioSegment.from_file(audio_file_path, format=ext[1:])
-#             # Export with desired parameters: PCM 16-bit little-endian, 16000 Hz, mono.
-#             audio.export(wav_path, format="wav", codec="pcm_s16le", parameters=["-ar", "16000", "-ac", "1"])
-#             return wav_path
-#         except Exception as e:
-#             print(f"Audio conversion failed: {e}")
-#             return audio_file_path
-#     return audio_file_path
-
 def prepare_audio(audio_file_path):
     """
     Check if the provided audio file is in mp3 or m4a format.

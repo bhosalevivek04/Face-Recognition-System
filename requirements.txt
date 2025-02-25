@@ -5,3 +5,5 @@ gTTS==2.2.4
 opencv-python==4.7.0.72
 numpy==1.23.5
 pydub==0.25.1
+pymongo==4.3.3
+python-dotenv==1.0.0
