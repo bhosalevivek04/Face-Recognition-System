@@ -127,9 +127,10 @@ data/
 results/
 
 # Data / Audio / Photos
-photos/
+photo/
 audio/
 audio_test/
+recognized_name.mp3
 
 # OS-specific
 .DS_Store
