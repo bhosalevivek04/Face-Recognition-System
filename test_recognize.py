@@ -6,7 +6,7 @@ BASE_URL = "http://localhost:5000"
 rec_url = f"{BASE_URL}/recognize"
 
 # Path to your test recognition image (adjust the filename if needed)
-rec_image_path = "photo/Vivek2.jpg"
+rec_image_path = "photo/Navnath1.jpg"
 
 # Open the recognition image file in binary mode and send a POST request
 with open(rec_image_path, "rb") as rec_file:

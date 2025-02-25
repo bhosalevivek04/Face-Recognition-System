@@ -5,8 +5,8 @@ BASE_URL = "http://localhost:5000"
 reg_url = f"{BASE_URL}/register"
 
 # Update these paths to point to your test registration files:
-reg_image_path = "photo/Vivek1.jpg"   # Registration image (JPEG/PNG) in the "photo" folder
-reg_audio_path = "audio/Vivek.wav"  # Registration audio file (WAV or MP3)
+reg_image_path = "photo/Navnath1.jpg"   # Registration image (JPEG/PNG) in the "photo" folder
+reg_audio_path = "audio/Navnath.wav"  # Registration audio file (WAV or MP3)
 
 try:
     with open(reg_image_path, "rb") as img_file, open(reg_audio_path, "rb") as audio_file:

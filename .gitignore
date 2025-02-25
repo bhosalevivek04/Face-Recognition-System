@@ -125,3 +125,15 @@ cython_debug/
 models/
 data/
 results/
+
+# Data / Audio / Photos
+photos/
+audio/
+audio_test/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# If you use .env for secrets
+.env
